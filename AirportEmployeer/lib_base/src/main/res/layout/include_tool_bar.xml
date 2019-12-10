@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_view_height"
+        android:background="@color/common_app_white_ffffff" />
+
+    <cn.com.jsj.lib_base.widget.CommonToolbar
+        android:id="@+id/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/common_app_white_ffffff"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp" />
+    <View
+        android:id="@+id/v_tool_bar_bottom_line"
+        style="@style/jsj_common_line_e5e5e5" />
+
+</LinearLayout>

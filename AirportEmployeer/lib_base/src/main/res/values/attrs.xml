@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonToolbar">
+        <!--返回按钮图标-->
+        <attr name="toolbarLeftIconImage" format="reference"/>
+        <!--左侧关闭文字-->
+        <attr name="toolbarLeftCloseTextStr" format="string"/>
+        <!--左侧关闭文字大小-->
+        <attr name="toolbarLeftCloseTextSize" format="dimension"/>
+        <!--左侧关闭文字颜色-->
+        <attr name="toolbarLeftCloseTextColor" format="color"/>
+        <!--左侧关闭文字显示开始 true 显示 false 关闭-->
+        <attr name="toolbarLeftCloseTextShowTag" format="boolean"/>
+        <!--主标题文字-->
+        <attr name="toolbarTitleTextStr" format="string"/>
+        <!--主标题文字大小-->
+        <attr name="toolbarTitleTextSize" format="dimension"/>
+        <!--主标题文字颜色-->
+        <attr name="toolbarTitleTextColor" format="color"/>
+        <!--副标题文字-->
+        <attr name="toolbarSubTitleTextStr" format="string"/>
+        <!--副标题文字大小-->
+        <attr name="toolbarSubTitleTextSize" format="dimension"/>
+        <!--副标题文字颜色-->
+        <attr name="toolbarSubTitleTextColor" format="color"/>
+        <!--副标题文字是否显示 true 显示 false 不显示-->
+        <attr name="toolbarSubTitleTextShowTag" format="boolean"/>
+        <!--是否只展示主标题，true 只展示主标题 其他view都不展示-->
+        <attr name="toolbarOnlyShowTitleTag" format="boolean"/>
+
+    </declare-styleable>
+
+
+
+</resources>

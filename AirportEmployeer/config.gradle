@@ -1,0 +1,121 @@
+//管理所有的引入的版本号
+ext {
+
+    kotlin_version = '1.3.11'
+
+    androidSdkVersoin = [
+            //app最低运行系统SDK版本
+            minSdkVersion    : 19,
+            //app目标SDK版本
+            targetSdkVersion : 22,
+            //编译SDK版本
+            compileSdkVersion: 28
+    ]
+
+    appId = [
+            "applicationId": "com.jsj.airport"
+    ]
+
+    //-----------------------------------------------------------------------------------
+    // 以下是项目中所有引用的第三方库的版本号，在此要统一管理，不能再build.gradle文件中单独引入版本号
+    //-----------------------------------------------------------------------------------
+
+    //support Libraries 兼容包使用的版本
+    androidSupportLibrary = '28.0.0'
+    androidSupportConstraintLayout = '1.1.3'
+    androidMultidex = '1.0.3'
+
+    junitTest = '4.10'
+    supportTestRunner = '1.0.2'
+    supportTestEspresso = '3.0.2'
+
+    googleAnalytics = '16.0.6'
+
+    //官方AAC架构
+    archLifeCyclerRumtime = '1.1.0'
+    archLifeCyclerExtensions = '1.1.0'
+    archLifeCyclerCompiler = '1.1.0'
+
+    //谷歌 二维码扫描框架
+    zxingCore = '3.2.1'
+
+    protobufJava = '3.1.0'
+    //protobuf 解析工具
+    protobufVersion = '3.1.0'
+
+    //权限库
+    yanzhenjiePermission = '1.0.5'
+
+    // retrofit2 网络请求 Square提供的开源产品，为Android平台的应用提供一个类型安全的REST客户端
+    retrofitVersion = '2.3.0'
+
+    //RXJAVA2
+    rajava2Version = '2.2.4'
+    rxAndroid = '2.1.0'
+
+    //谷歌 glide图片框架
+    glideVersion = '4.8.0'
+
+    //ARouter 阿里路由框架（模块间页面跳转）
+    arouterApiVersion = '1.4.1'
+    aroutercompilerVersion = '1.2.2'
+
+
+
+    touTiaoAutoSize = '1.1.1'
+
+    //google 出品，二维码生成以及识别
+    zxingVersion = '3.2.1'
+
+    //recycleview加载动画处理工具包
+    wasabeefRrecyclerviewAnimators = '2.2.3'
+
+    //facebook 出品，强大的图片加载处理包
+    frescoVersion = '1.0.0'
+    frescoAnimatedGif = '1.0.0'
+
+    //依赖注入(或叫ioc,用过Spring的都知道这东东)框架，用于解耦的。
+    dagger2Version = '2.5'
+
+    //View 注入框架
+    butterknifeVersion = '8.2.1'
+
+
+    immersionbar = '2.3.3-beta09'
+
+    javaxAnnotation = '1.2'
+
+    //友盟统计
+    uMengAnalytics = '6.1.0'
+
+    orhanobutLogger = '1.15'
+
+    //https://github.com/lcodecorex/TwinklingRefreshLayout
+    tkrefreshlayout = '1.0.5'
+    //强大灵活的RecyclerAdapter https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+    BaseRecyclerViewAdapterHelper = '2.9.36'
+
+    //  TinyPinyin核心包，约80KB
+    tinypinyin = '2.0.3'
+    // 可选，适用于Android的中国地区词典
+    tinypinyinLexiconsCncity = '2.0.3'
+
+    jsoup = '1.10.2'
+
+    nineoldandroidsLibrary = '2.4.0'
+    //鲁班压缩图片
+    luban = '1.0.9'
+
+    //ORM 数据库操作
+    greedDao = '3.2.0'
+
+    //极光推送
+    jiGuangPush = '3.0.1'
+    jiGuangPushCore = '1.1.0'
+
+    //bugly
+    buglycrashreport = '2.8.6'
+    buglyNativecrashreport = '3.6.0'
+
+
+}

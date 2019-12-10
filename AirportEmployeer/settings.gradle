@@ -1,0 +1,8 @@
+include ':airport', ':lib_common', ':lib_base'
+
+rootProject.name = 'AirportEmployeer'
+setBinding(new Binding([gradle: this, mainModuleName: 'airport']))
+evaluate(new File(
+        settingsDir.parentFile,
+        'employee_fm/.android/include_flutter.groovy'
+))

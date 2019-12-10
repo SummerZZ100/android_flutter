@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--x线条line e5e5e5-->
+    <style name="jsj_common_line_e5e5e5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/common_app_gray_e5e5e5</item>
+    </style>
+
+
+    <!--倒计时按钮控件-->
+    <declare-styleable name="SaVerificationCodeButton">
+        <!--倒计时总时间-->
+        <attr name="millis_in_future" format="integer" />
+        <!--倒计时时间间隔-->
+        <attr name="count_down_interval" format="integer" />
+        <!--点击控件之前的显示文案-->
+        <attr name="click_before_txt" format="string" />
+        <!--点击控件之后，倒计时前面的文案，以及倒计时结束后的文案-->
+        <attr name="count_down_txt" format="string" />
+    </declare-styleable>
+
+
+    <!-- 自定义仿IOS的AlertDialog的样式 跟-->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--Picker 弹出动画-->
+    <style name="Animation.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

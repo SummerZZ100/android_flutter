@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_tool_bar_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <FrameLayout
+        android:id="@+id/fl_tool_bar_left_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/iv_tool_bar_left_icon"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/ic_back_black" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_tool_bar_left_close_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/fl_tool_bar_left_icon"
+        android:text="closeText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/toolbar_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:text="TitleTitleTitle" />
+    </LinearLayout>
+
+<!--    <View
+        style="@style/jsj_common_line_e5e5e5"
+        android:layout_alignParentBottom="true" />-->
+</RelativeLayout>

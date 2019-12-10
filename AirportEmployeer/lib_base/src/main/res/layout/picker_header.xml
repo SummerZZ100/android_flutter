@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0093ff"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:text="取消"
+            android:background="@null"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:background="@null"
+            android:text="核销人选择"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:textColor="@color/white"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="确定"
+            android:textSize="14dp"/>
+    </RelativeLayout>
+</LinearLayout>

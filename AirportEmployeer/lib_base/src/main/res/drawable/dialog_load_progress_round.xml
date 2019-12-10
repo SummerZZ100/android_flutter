@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@mipmap/heart_1" android:duration="100"  />
+    <item android:drawable="@mipmap/heart_2" android:duration="100" />
+    <item android:drawable="@mipmap/heart_3" android:duration="100" />
+    <item android:drawable="@mipmap/heart_4" android:duration="100" />
+    <item android:drawable="@mipmap/heart_5" android:duration="100" />
+    <item android:drawable="@mipmap/heart_6" android:duration="100" />
+    <item android:drawable="@mipmap/heart_7" android:duration="100" />
+    <item android:drawable="@mipmap/heart_8" android:duration="100" />
+    <item android:drawable="@mipmap/heart_9" android:duration="100" />
+    <item android:drawable="@mipmap/heart_10" android:duration="100" />
+    <item android:drawable="@mipmap/heart_11" android:duration="100" />
+    <item android:drawable="@mipmap/heart_12" android:duration="100" />
+    <item android:drawable="@mipmap/heart_13" android:duration="100" />
+    <item android:drawable="@mipmap/heart_14" android:duration="100" />
+    <item android:drawable="@mipmap/heart_15" android:duration="100" />
+    <item android:drawable="@mipmap/heart_16" android:duration="100" />
+    <item android:drawable="@mipmap/heart_17" android:duration="100" />
+    <item android:drawable="@mipmap/heart_18" android:duration="100" />
+
+</animation-list>
